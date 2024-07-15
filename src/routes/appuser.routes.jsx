@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 
-import { Home } from "../pages/Home";
-import { Details } from "../pages/Details";
+import { Home } from "../pages/Home/index";
+import { Details } from "../pages/Details/Index";
 
 export function AppUserRoutes() {
   return (
