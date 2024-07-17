@@ -194,6 +194,11 @@ export const Form = styled.form`
             width: 100%;            
         }
 
+        .info01 div section {
+            display: flex;
+            flex-direction: column;
+        }
+
         .info02 > .sectioncost {
             width: 100%;
         }

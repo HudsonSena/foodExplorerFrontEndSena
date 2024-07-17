@@ -106,7 +106,7 @@ export function CreateFood() {
           <div className="info01">
             <div>
               <label htmlFor="inputImg">Imagem do prato</label>
-              <section>
+              <section className="imgselect">
                 <img src={foodImage} />
                 <Avatar>
                   <FiUpload size={30} />

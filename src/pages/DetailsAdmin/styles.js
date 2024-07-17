@@ -127,6 +127,6 @@ export const Content = styled.main`
   }
 
   @media (max-width: 520px) {
-    padding: 1rem 0;
+    padding: 1rem .5rem;
   }
 `;

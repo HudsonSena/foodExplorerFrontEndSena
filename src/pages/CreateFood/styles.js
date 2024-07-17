@@ -56,6 +56,10 @@ export const Content = styled.main`
   @media (max-width: 920px) {
     padding: 3.2rem;
   }
+
+  @media (max-width: 520px) {
+    padding: 1rem;
+  }
 `;
 
 export const Form = styled.form`
@@ -181,8 +185,12 @@ export const Form = styled.form`
     .info02,
     .info03 {
       flex-direction: column;
-
       width: 100%;
+    }
+
+    .info01 div section {
+      display: flex;
+      flex-direction: column;
     }
 
     .info02 > .sectioncost {
