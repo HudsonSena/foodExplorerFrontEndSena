@@ -11,7 +11,7 @@ export const Container = styled.div`
     
     color: ${({ theme }) => theme.colors.txtBtn1};
 
-    border: ${({ theme, isNew }) => isNew ? `.1rem dashed ${ theme.colors.txtPlaceholder}` : `1px solid ${ theme.colors.txtPlaceholder}`};
+    border: ${({ theme, isNew }) => isNew ? `.1rem dashed ${theme.colors.txtPlaceholder}` : `1px solid ${theme.colors.txtPlaceholder}`};
     border-radius: .5rem;
 
     .button-add, .button-delete {
@@ -28,9 +28,7 @@ export const Container = styled.div`
         background: transparent;
 
         border: none;
-
-        padding: 0 .4rem;
-        padding-left: 1.4rem;
+        padding: 0 1.4rem;
 
         font-size: 1.6rem;
         font-family: 'Roboto';
