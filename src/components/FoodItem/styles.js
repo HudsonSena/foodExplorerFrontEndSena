@@ -5,7 +5,8 @@ export const Container = styled.div`
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 0 1.4rem;
 
     background: ${({ theme, isNew }) => isNew ? `.1rem solid ${({ theme }) => theme.colors.txtPlaceholder}` : theme.colors.txtPlaceholder};
     
@@ -28,8 +29,6 @@ export const Container = styled.div`
         background: transparent;
 
         border: none;
-        padding: 0 1.4rem;
-
         font-size: 1.6rem;
         font-family: 'Roboto';
 
