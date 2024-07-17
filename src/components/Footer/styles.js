@@ -47,4 +47,13 @@ export const Container = styled.footer`
             font-size: 1.2rem;
         }
     }
+
+    @media (max-width: 520px) {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+  }
 `;

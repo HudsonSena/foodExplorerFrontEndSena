@@ -133,4 +133,8 @@ export const Content = styled.main`
       flex-direction: column;
     }
   }
+
+  @media (max-width: 520px) {
+    padding: 1rem 0;
+  }
 `;
