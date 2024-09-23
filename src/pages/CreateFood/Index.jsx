@@ -38,7 +38,6 @@ export function CreateFood() {
       setTags((prevState) => [...prevState, newTag]);
       setNewTag("");
     }
-
   }
 
   function handleRemoveTag(deleted) {
